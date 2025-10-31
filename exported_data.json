@@ -1,0 +1,361 @@
+{
+  "doctors": [
+    {
+      "name": "Anita Wong",
+      "description": "psychiatrist",
+      "phone": "13572468",
+      "email": "anitawong@yahoo.com.hk",
+      "is_mvp": true
+    },
+    {
+      "name": "Mary Chan",
+      "description": "gynecologist",
+      "phone": "12345678",
+      "email": "marychan@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Ryan Wong",
+      "description": "General Doctor",
+      "phone": "27297361",
+      "email": "ryanwong@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Ryan Chan",
+      "description": "Male \r\nEye Specialist",
+      "phone": "12784512",
+      "email": "samwongms@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Pinky Law",
+      "description": "Specilise in cosmetic surgery\r\nOffer 20% discount for women aged between 20 and 30",
+      "phone": "19827364",
+      "email": "samwongmms@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Nicole Lee",
+      "description": "General Practitioner\r\n28 years old\r\nSingle",
+      "phone": "27354189",
+      "email": "samwongms@yahoo.com.hk",
+      "is_mvp": true
+    },
+    {
+      "name": "Tom Lee",
+      "description": "Cardiologist\r\nExperience in heart surgery",
+      "phone": "31298798",
+      "email": "samwongms25@hotmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Lucy Chan",
+      "description": "Ear, nose and throat specialist\r\nFenale\r\n30 years old\r\nAppointment required",
+      "phone": "34561278",
+      "email": "",
+      "is_mvp": true
+    },
+    {
+      "name": "wong ming",
+      "description": "",
+      "phone": "00000000",
+      "email": "samwong@gmail.com",
+      "is_mvp": true
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Expert"
+    },
+    {
+      "name": "Eye Specialist"
+    },
+    {
+      "name": "Brain Surgery"
+    },
+    {
+      "name": "Heart Sugery"
+    },
+    {
+      "name": "throat surgery"
+    },
+    {
+      "name": "Asthma"
+    },
+    {
+      "name": "Kidney"
+    },
+    {
+      "name": "General Practitioner"
+    },
+    {
+      "name": "Therapy"
+    },
+    {
+      "name": "Consultation by Expert"
+    }
+  ],
+  "listings": [
+    {
+      "doctor_email": "samwongms@gmail.com",
+      "title": "Tuen Mun Health Care",
+      "address": "Lung Mun Road",
+      "district": "Tuen Mun",
+      "description": "Health Care Service",
+      "service": 5,
+      "room_type": "Semi-Private Rooms",
+      "screen": 7,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "Brain Surgery",
+        "throat surgery",
+        "Asthma",
+        "General Practitioner"
+      ],
+      "services": [
+        "Consultant"
+      ]
+    },
+    {
+      "doctor_email": "",
+      "title": "North District Hospital",
+      "address": "Ting Kok Road",
+      "district": "Wong Tai Sin",
+      "description": "General Practitioner",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 5,
+      "rooms": "3",
+      "is_published": true,
+      "professionals": [
+        "Brain Surgery",
+        "throat surgery",
+        "Kidney",
+        "Consultation by Expert"
+      ],
+      "services": [
+        "Consultant"
+      ]
+    },
+    {
+      "doctor_email": "anitawong@yahoo.com.hk",
+      "title": "ophthalmology Center",
+      "address": "129, Waterloo Road",
+      "district": "Kwun Tong",
+      "description": "Eye surgery",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 5,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "throat surgery",
+        "Kidney",
+        "Therapy"
+      ],
+      "services": [
+        "Specialist"
+      ]
+    },
+    {
+      "doctor_email": "samwongmms@gmail.com",
+      "title": "reliable Dental Clinic",
+      "address": "34, Cheung Sha Wan Shopping Mall",
+      "district": "Yau Tsim Mong",
+      "description": "Dental Services",
+      "service": 7,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 5,
+      "rooms": "2",
+      "is_published": true,
+      "professionals": [
+        "Brain Surgery",
+        "Heart Sugery",
+        "throat surgery"
+      ],
+      "services": [
+        "Gerneral",
+        "Practioner"
+      ]
+    },
+    {
+      "doctor_email": "samwongms@yahoo.com.hk",
+      "title": "haven of hope Hospital",
+      "address": "7, Haven of Hope Road",
+      "district": "Islands",
+      "description": "Mainly dealing with terminally ill patients",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 8,
+      "rooms": "3",
+      "is_published": true,
+      "professionals": [
+        "throat surgery",
+        "Kidney",
+        "Consultation by Expert"
+      ],
+      "services": [
+        "Gerneral",
+        "Practioner"
+      ]
+    },
+    {
+      "doctor_email": "samwongms25@hotmail.com",
+      "title": "hong kong sanatorium",
+      "address": "2 Village Road,",
+      "district": "Central & Western",
+      "description": "Periodical Medical Check-Up",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 2,
+      "rooms": "2",
+      "is_published": true,
+      "professionals": [
+        "Eye Specialist",
+        "Heart Sugery",
+        "throat surgery"
+      ],
+      "services": [
+        "Specialist"
+      ]
+    },
+    {
+      "doctor_email": "marychan@gmail.com",
+      "title": "kowloon hospital",
+      "address": "230, Nathan Road",
+      "district": "Kowloon City",
+      "description": "Oncology\r\nExperience in dealing with terminally ill patients",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 4,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "Eye Specialist",
+        "Brain Surgery",
+        "Asthma",
+        "Kidney"
+      ],
+      "services": [
+        "Consultant"
+      ]
+    },
+    {
+      "doctor_email": "samwongmms@gmail.com",
+      "title": "Central Clinic",
+      "address": "230, Nathan Road",
+      "district": "Central & Western",
+      "description": "General Practitioner",
+      "service": 5,
+      "room_type": "Private Rooms",
+      "screen": 2,
+      "professional": 3,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "Expert",
+        "Eye Specialist",
+        "Heart Sugery",
+        "Consultation by Expert"
+      ],
+      "services": [
+        "Specialist"
+      ]
+    },
+    {
+      "doctor_email": "samwongms@yahoo.com.hk",
+      "title": "Hong kong Medical Care",
+      "address": "City Plaza",
+      "district": "Yuen Long",
+      "description": "Graduated in 2020 at University of HK\r\nDermatologist",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 3,
+      "rooms": "5",
+      "is_published": true,
+      "professionals": [
+        "Expert",
+        "Eye Specialist",
+        "Consultation by Expert"
+      ],
+      "services": [
+        "Consultant"
+      ]
+    },
+    {
+      "doctor_email": "",
+      "title": "Hong Kong Clinic",
+      "address": "Connaught Road Central",
+      "district": "Eastern",
+      "description": "Nephrology\r\nExperience in dealing with patients suffering from serious illnesses",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 5,
+      "professional": 3,
+      "rooms": "5",
+      "is_published": true,
+      "professionals": [
+        "Expert",
+        "Brain Surgery",
+        "Asthma",
+        "Therapy"
+      ],
+      "services": [
+        "Professor"
+      ]
+    },
+    {
+      "doctor_email": "ryanwong@gmail.com",
+      "title": "Central Clinic",
+      "address": "Ho Man Tin",
+      "district": "Yau Tsim Mong",
+      "description": "Psychiatrist\r\nA recent graduate from the University of HK",
+      "service": 50,
+      "room_type": "Private Rooms",
+      "screen": 40,
+      "professional": 2,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "Heart Sugery",
+        "throat surgery",
+        "Kidney",
+        "General Practitioner"
+      ],
+      "services": [
+        "Professor"
+      ]
+    },
+    {
+      "doctor_email": "anitawong@yahoo.com.hk",
+      "title": "General Consultation Centre",
+      "address": "Princess Building",
+      "district": "Tsuen Wan",
+      "description": "Family Doctor",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true,
+      "professionals": [
+        "Eye Specialist",
+        "Heart Sugery",
+        "Kidney"
+      ],
+      "services": [
+        "Professor"
+      ]
+    }
+  ]
+}

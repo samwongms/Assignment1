@@ -1,0 +1,184 @@
+{
+  "subjects": [
+    {
+      "name": "心臟科"
+    },
+    {
+      "name": "神經科"
+    },
+    {
+      "name": "兒科"
+    },
+    {
+      "name": "骨科"
+    },
+    {
+      "name": "皮膚科"
+    },
+    {
+      "name": "眼科"
+    },
+    {
+      "name": "牙科"
+    },
+    {
+      "name": "心理科"
+    },
+    {
+      "name": "婦產科"
+    },
+    {
+      "name": "耳鼻喉科"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "陳大明醫生",
+      "description": "資深心臟科專家，擁有20年臨床經驗",
+      "phone": "91234567",
+      "email": "chan.tai.ming@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "李美麗醫生",
+      "description": "專業兒科醫生，專注兒童健康發展",
+      "phone": "92345678",
+      "email": "li.mei.li@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "張偉強醫生",
+      "description": "骨科手術專家，微創手術先驅",
+      "phone": "93456789",
+      "email": "cheung.wai.keung@hospital.com",
+      "is_mvp": false
+    },
+    {
+      "name": "王曉慧醫生",
+      "description": "皮膚科專家，美容醫學權威",
+      "phone": "94567890",
+      "email": "wong.siu.wai@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "劉德華醫生",
+      "description": "神經科主任，腦科疾病專家",
+      "phone": "95678901",
+      "email": "lau.tak.wa@hospital.com",
+      "is_mvp": false
+    },
+    {
+      "name": "趙敏醫生",
+      "description": "婦產科專家，產前檢查權威",
+      "phone": "96789012",
+      "email": "chiu.man@hospital.com",
+      "is_mvp": true
+    }
+  ],
+  "listings": [
+    {
+      "title": "中環心臟專科診所",
+      "address": "中環皇后大道中100號",
+      "district": "CW (中西區)",
+      "description": "位於中環核心地帶的心臟專科診所，設備先進",
+      "services": "心電圖,心臟超聲波,24小時心電監測",
+      "service": 4,
+      "room_type": "suite (套房)",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "3 (3間)",
+      "is_published": true
+    },
+    {
+      "title": "銅鑼灣兒科中心",
+      "address": "銅鑼灣軒尼詩道500號",
+      "district": "WC (灣仔區)",
+      "description": "專為兒童設立的友好醫療環境",
+      "services": "疫苗接種,兒童發展評估,過敏測試",
+      "service": 5,
+      "room_type": "single (單人房)",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2 (2間)",
+      "is_published": true
+    },
+    {
+      "title": "九龍城骨科診所",
+      "address": "九龍城賈炳達道128號",
+      "district": "KC (九龍城區)",
+      "description": "專業骨科治療與復健中心",
+      "services": "物理治療,骨骼掃描,關節置換",
+      "service": 4,
+      "room_type": "double (雙人房)",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "4+ (4間或以上)",
+      "is_published": true
+    },
+    {
+      "title": "沙田綜合醫療中心",
+      "address": "沙田新城市廣場1期",
+      "district": "ST (沙田區)",
+      "description": "提供多專科醫療服務的綜合中心",
+      "services": "健康檢查,專科門診,小手術",
+      "service": 5,
+      "room_type": "shared (共享房)",
+      "screen": 4,
+      "professional": 3,
+      "rooms": "4+ (4間或以上)",
+      "is_published": false
+    },
+    {
+      "title": "屯門皮膚科診所",
+      "address": "屯門市廣場第2期",
+      "district": "TM (屯門區)",
+      "description": "專業皮膚治療與美容服務",
+      "services": "激光治療,皮膚病理,美容注射",
+      "service": 3,
+      "room_type": "single (單人房)",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2 (2間)",
+      "is_published": true
+    },
+    {
+      "title": "尖沙咀眼科中心",
+      "address": "尖沙咀廣東道188號",
+      "district": "YT (油尖旺區)",
+      "description": "先進眼科檢查與治療設備",
+      "services": "視力檢查,激光手術,白內障治療",
+      "service": 4,
+      "room_type": "suite (套房)",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "3 (3間)",
+      "is_published": true
+    },
+    {
+      "title": "荃灣牙科診所",
+      "address": "荃灣青山公路123號",
+      "district": "TW (荃灣區)",
+      "description": "全面牙科護理與治療服務",
+      "services": "洗牙,補牙,牙齒矯正,植牙",
+      "service": 3,
+      "room_type": "single (單人房)",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2 (2間)",
+      "is_published": true
+    },
+    {
+      "title": "觀塘心理輔導中心",
+      "address": "觀塘開源道77號",
+      "district": "KT (觀塘區)",
+      "description": "專業心理評估與治療服務",
+      "services": "心理評估,認知治療,壓力管理",
+      "service": 4,
+      "room_type": "double (雙人房)",
+      "screen": 2,
+      "professional": 2,
+      "rooms": "3 (3間)",
+      "is_published": true
+    }
+  ]
+}

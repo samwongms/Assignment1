@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+<!-- load widget_tweaks -->
+{% load widget_tweaks %} {% block content %}
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card p-6 shadow-sm">
+        <h1 class="text-center mb-4">Edit message</h1>
+        <form
+          action="{% url 'contacts:edit_contact' contact.id %}"
+          method="POST"
+        >
+          {% csrf_token %}
+          <div class="mb-3">
+            {{form.message|add_label_class:"form-label"}}
+            <!--form error -->
+            {% if form.message.errors %}
+            <div class="text-danger mb-2">{{form.message.errors}}</div>
+            {% endif %} {{form.message|add_class:"form-control"}}
+          </div>
+          <button class="btn btn-primary w-100" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

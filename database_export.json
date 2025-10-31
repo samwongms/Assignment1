@@ -1,0 +1,453 @@
+{
+  "subjects": [
+    {
+      "name": "心臟科"
+    },
+    {
+      "name": "神經科"
+    },
+    {
+      "name": "兒科"
+    },
+    {
+      "name": "骨科"
+    },
+    {
+      "name": "皮膚科"
+    },
+    {
+      "name": "眼科"
+    },
+    {
+      "name": "牙科"
+    },
+    {
+      "name": "心理科"
+    },
+    {
+      "name": "婦產科"
+    },
+    {
+      "name": "耳鼻喉科"
+    },
+    {
+      "name": "Expert"
+    },
+    {
+      "name": "Eye Specialist"
+    },
+    {
+      "name": "Brain Surgery"
+    },
+    {
+      "name": "Heart Sugery"
+    },
+    {
+      "name": "throat surgery"
+    },
+    {
+      "name": "Asthma"
+    },
+    {
+      "name": "Kidney"
+    },
+    {
+      "name": "General Practitioner"
+    },
+    {
+      "name": "Therapy"
+    },
+    {
+      "name": "Consultation by Expert"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "陳大明醫生",
+      "description": "資深心臟科專家，擁有20年臨床經驗",
+      "phone": "91234567",
+      "email": "chan.tai.ming@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "李美麗醫生",
+      "description": "專業兒科醫生，專注兒童健康發展",
+      "phone": "92345678",
+      "email": "li.mei.li@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "張偉強醫生",
+      "description": "骨科手術專家，微創手術先驅",
+      "phone": "93456789",
+      "email": "cheung.wai.keung@hospital.com",
+      "is_mvp": false
+    },
+    {
+      "name": "王曉慧醫生",
+      "description": "皮膚科專家，美容醫學權威",
+      "phone": "94567890",
+      "email": "wong.siu.wai@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "劉德華醫生",
+      "description": "神經科主任，腦科疾病專家",
+      "phone": "95678901",
+      "email": "lau.tak.wa@hospital.com",
+      "is_mvp": false
+    },
+    {
+      "name": "趙敏醫生",
+      "description": "婦產科專家，產前檢查權威",
+      "phone": "96789012",
+      "email": "chiu.man@hospital.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Anita Wong",
+      "description": "psychiatrist",
+      "phone": "13572468",
+      "email": "anitawong@yahoo.com.hk",
+      "is_mvp": true
+    },
+    {
+      "name": "Mary Chan",
+      "description": "gynecologist",
+      "phone": "12345678",
+      "email": "marychan@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Ryan Wong",
+      "description": "General Doctor",
+      "phone": "27297361",
+      "email": "ryanwong@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Ryan Chan",
+      "description": "Male \r\nEye Specialist",
+      "phone": "12784512",
+      "email": "samwongms@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Pinky Law",
+      "description": "Specilise in cosmetic surgery\r\nOffer 20% discount for women aged between 20 and 30",
+      "phone": "19827364",
+      "email": "samwongmms@gmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Nicole Lee",
+      "description": "General Practitioner\r\n28 years old\r\nSingle",
+      "phone": "27354189",
+      "email": "samwongms@yahoo.com.hk",
+      "is_mvp": true
+    },
+    {
+      "name": "Tom Lee",
+      "description": "Cardiologist\r\nExperience in heart surgery",
+      "phone": "31298798",
+      "email": "samwongms25@hotmail.com",
+      "is_mvp": true
+    },
+    {
+      "name": "Lucy Chan",
+      "description": "Ear, nose and throat specialist\r\nFenale\r\n30 years old\r\nAppointment required",
+      "phone": "34561278",
+      "email": "",
+      "is_mvp": true
+    },
+    {
+      "name": "wong ming",
+      "description": "",
+      "phone": "00000000",
+      "email": "samwong@gmail.com",
+      "is_mvp": true
+    }
+  ],
+  "listings": [
+    {
+      "doctor": "李美麗醫生",
+      "title": "觀塘心理輔導中心",
+      "address": "觀塘開源道77號",
+      "district": "KT",
+      "description": "專業心理評估與治療服務",
+      "services": "心理評估, 認知治療, 壓力管理",
+      "service": 4,
+      "room_type": "double",
+      "screen": 2,
+      "professional": 2,
+      "rooms": "3",
+      "is_published": true
+    },
+    {
+      "doctor": "陳大明醫生",
+      "title": "荃灣牙科診所",
+      "address": "荃灣青山公路123號",
+      "district": "TW",
+      "description": "全面牙科護理與治療服務",
+      "services": "洗牙, 補牙, 牙齒矯正, 植牙",
+      "service": 3,
+      "room_type": "single",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2",
+      "is_published": true
+    },
+    {
+      "doctor": "趙敏醫生",
+      "title": "尖沙咀眼科中心",
+      "address": "尖沙咀廣東道188號",
+      "district": "YT",
+      "description": "先進眼科檢查與治療設備",
+      "services": "視力檢查, 激光手術, 白內障治療",
+      "service": 4,
+      "room_type": "suite",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "3",
+      "is_published": true
+    },
+    {
+      "doctor": "劉德華醫生",
+      "title": "屯門皮膚科診所",
+      "address": "屯門市廣場第2期",
+      "district": "TM",
+      "description": "專業皮膚治療與美容服務",
+      "services": "激光治療, 皮膚病理, 美容注射",
+      "service": 3,
+      "room_type": "single",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2",
+      "is_published": true
+    },
+    {
+      "doctor": "王曉慧醫生",
+      "title": "沙田綜合醫療中心",
+      "address": "沙田新城市廣場1期",
+      "district": "ST",
+      "description": "提供多專科醫療服務的綜合中心",
+      "services": "健康檢查, 專科門診, 小手術",
+      "service": 5,
+      "room_type": "shared",
+      "screen": 4,
+      "professional": 3,
+      "rooms": "4+",
+      "is_published": false
+    },
+    {
+      "doctor": "張偉強醫生",
+      "title": "九龍城骨科診所",
+      "address": "九龍城賈炳達道128號",
+      "district": "KC",
+      "description": "專業骨科治療與復健中心",
+      "services": "物理治療, 骨骼掃描, 關節置換",
+      "service": 4,
+      "room_type": "double",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "4+",
+      "is_published": true
+    },
+    {
+      "doctor": "李美麗醫生",
+      "title": "銅鑼灣兒科中心",
+      "address": "銅鑼灣軒尼詩道500號",
+      "district": "WC",
+      "description": "專為兒童設立的友好醫療環境",
+      "services": "疫苗接種, 兒童發展評估, 過敏測試",
+      "service": 5,
+      "room_type": "single",
+      "screen": 2,
+      "professional": 1,
+      "rooms": "2",
+      "is_published": true
+    },
+    {
+      "doctor": "陳大明醫生",
+      "title": "中環心臟專科診所",
+      "address": "中環皇后大道中100號",
+      "district": "CW",
+      "description": "位於中環核心地帶的心臟專科診所，設備先進",
+      "services": "心電圖, 心臟超聲波, 24小時心電監測",
+      "service": 4,
+      "room_type": "suite",
+      "screen": 3,
+      "professional": 2,
+      "rooms": "3",
+      "is_published": true
+    },
+    {
+      "doctor": "Anita Wong",
+      "title": "General Consultation Centre",
+      "address": "Princess Building",
+      "district": "Tsuen Wan",
+      "description": "Family Doctor",
+      "services": "Professor",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true
+    },
+    {
+      "doctor": "Ryan Wong",
+      "title": "Central Clinic",
+      "address": "Ho Man Tin",
+      "district": "Yau Tsim Mong",
+      "description": "Psychiatrist\r\nA recent graduate from the University of HK",
+      "services": "Professor",
+      "service": 50,
+      "room_type": "Private Rooms",
+      "screen": 40,
+      "professional": 2,
+      "rooms": "4",
+      "is_published": true
+    },
+    {
+      "doctor": "Lucy Chan",
+      "title": "Hong Kong Clinic",
+      "address": "Connaught Road Central",
+      "district": "Eastern",
+      "description": "Nephrology\r\nExperience in dealing with patients suffering from serious illnesses",
+      "services": "Professor",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 5,
+      "professional": 3,
+      "rooms": "5",
+      "is_published": true
+    },
+    {
+      "doctor": "Nicole Lee",
+      "title": "Hong kong Medical Care",
+      "address": "City Plaza",
+      "district": "Yuen Long",
+      "description": "Graduated in 2020 at University of HK\r\nDermatologist",
+      "services": "Consultant",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 3,
+      "rooms": "5",
+      "is_published": true
+    },
+    {
+      "doctor": "Pinky Law",
+      "title": "Central Clinic",
+      "address": "230, Nathan Road",
+      "district": "Central & Western",
+      "description": "General Practitioner",
+      "services": "Specialist",
+      "service": 5,
+      "room_type": "Private Rooms",
+      "screen": 2,
+      "professional": 3,
+      "rooms": "4",
+      "is_published": true
+    },
+    {
+      "doctor": "Mary Chan",
+      "title": "kowloon hospital",
+      "address": "230, Nathan Road",
+      "district": "Kowloon City",
+      "description": "Oncology\r\nExperience in dealing with terminally ill patients",
+      "services": "Consultant",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 4,
+      "rooms": "4",
+      "is_published": true
+    },
+    {
+      "doctor": "Tom Lee",
+      "title": "hong kong sanatorium",
+      "address": "2 Village Road,",
+      "district": "Central & Western",
+      "description": "Periodical Medical Check-Up",
+      "services": "Specialist",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 2,
+      "rooms": "2",
+      "is_published": true
+    },
+    {
+      "doctor": "Nicole Lee",
+      "title": "haven of hope Hospital",
+      "address": "7, Haven of Hope Road",
+      "district": "Islands",
+      "description": "Mainly dealing with terminally ill patients",
+      "services": "Gerneral, Practioner",
+      "service": 3,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 8,
+      "rooms": "3",
+      "is_published": true
+    },
+    {
+      "doctor": "Pinky Law",
+      "title": "reliable Dental Clinic",
+      "address": "34, Cheung Sha Wan Shopping Mall",
+      "district": "Yau Tsim Mong",
+      "description": "Dental Services",
+      "services": "Gerneral, Practioner",
+      "service": 7,
+      "room_type": "Private Rooms",
+      "screen": 3,
+      "professional": 5,
+      "rooms": "2",
+      "is_published": true
+    },
+    {
+      "doctor": "Anita Wong",
+      "title": "ophthalmology Center",
+      "address": "129, Waterloo Road",
+      "district": "Kwun Tong",
+      "description": "Eye surgery",
+      "services": "Specialist",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 5,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true
+    },
+    {
+      "doctor": "Lucy Chan",
+      "title": "North District Hospital",
+      "address": "Ting Kok Road",
+      "district": "Wong Tai Sin",
+      "description": "General Practitioner",
+      "services": "Consultant",
+      "service": 4,
+      "room_type": "Private Rooms",
+      "screen": 4,
+      "professional": 5,
+      "rooms": "3",
+      "is_published": true
+    },
+    {
+      "doctor": "Ryan Chan",
+      "title": "Tuen Mun Health Care",
+      "address": "Lung Mun Road",
+      "district": "Tuen Mun",
+      "description": "Health Care Service",
+      "services": "Consultant",
+      "service": 5,
+      "room_type": "Semi-Private Rooms",
+      "screen": 7,
+      "professional": 5,
+      "rooms": "4",
+      "is_published": true
+    }
+  ]
+}
